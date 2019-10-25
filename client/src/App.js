@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-
+import Table from './Table.js';
 import logo from './logo.svg';
-
 import './App.css';
 
 class App extends Component {
@@ -57,6 +56,7 @@ render() {
           </a>
         </header>
         <p>{this.state.response}</p>
+        <Table/>
         <form onSubmit={this.handleSubmit}>
           <p>
             <strong>Post to Server:</strong>
