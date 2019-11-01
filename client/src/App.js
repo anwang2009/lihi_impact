@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Table from './Table.js';
+import Table from './components/Table.js';
 import {
   BrowserRouter as Router,
   Switch,

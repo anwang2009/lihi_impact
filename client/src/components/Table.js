@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "./Table.css"
 
 class Table extends Component {
    constructor(props) {
@@ -18,16 +19,25 @@ class Table extends Component {
 
   render() {
      return (
+      //applies css style for table
         <div>
            <h1 id='title'>React Dynamic Table</h1>
            <table id='students'>
               <tbody>
+                 <tr>{this.renderTableHeader()}</tr>
                  {this.renderTableData()}
               </tbody>
            </table>
         </div>
      )
   }
+
+  renderTableHeader() {
+        let header = Object.keys(this.state.students[0])
+        return header.map((key, index) => {
+           return <th key={index}>{key.toUpperCase()}</th>
+        })
+     }
 
   renderTableData() {
         return this.state.students.map((student, index) => {
