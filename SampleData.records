@@ -1,2 +1,5 @@
-
-{
+{"resident_name": "Gary McLarry", "uuid": 1, "unit": 26B", "signins" :[{datetime: 2019-11-13:23:21}, {datetime: 2019-11-14:11:04}, {datetime: 2019-11-20:12:41}], "shifts": [{date: 2019-11-14, shift: 0, completed: true}, {date: 2019-11-15, shift: 3, completed: false}]}
+{"resident_name": "Ben10", "uuid": 2, "unit": 24A", "signins" :[{datetime: 2019-04-17:28:52}, {datetime: 2019-06-01:09:43}, {datetime: 2019-08-09:23:59}], "shifts": [{date: 2019-04-18, shift: 4, completed: true}, {date: 2019-08-15, shift: 3, completed: true}]}
+{"resident_name": "Tommy Treehill", "uuid": 3, "unit": 20D", "signins" :[{datetime: 2019-10-18:16:35}, {datetime: 2019-12-05:15:26}, {datetime: 2020-01-23:23:53}], "shifts": [{date: 2020-01-24, shift: 6, completed: false}, {date: 2020-01-27, shift: 3, completed: false}]}
+{"resident_name": "Kate Ate", "uuid": 4, "unit": 24B", "signins" :[{datetime: 2019-12-01:01:32}, {datetime: 2019-12-02:11:04}, {datetime: 2019-11-20:12:41}], "shifts": [{date: 2019-06-14, shift: 0, completed: false}, {date: 2019-12-20, shift: 8, completed: true}]}
+{"resident_name": "Sarah Smith", "uuid": 5, "unit": 20E", "signins" :[{datetime: 2018-06-12:13:23}, {datetime: 2019-05-13:23:57}, {datetime: 2019-05-22:13:45}], "shifts": [{date: 2018-01-14, shift: 4, completed: false}, {date: 2019-11-16, shift: 4, completed: true}]}
